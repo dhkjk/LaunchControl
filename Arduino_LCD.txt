@@ -1,0 +1,17 @@
+Kuman Arduino LCD Panel
+
+-Use LiquidCrystal.h library to write on the arduino
+
+The A0 button numbers are
+
+BtnNONE = >1000
+BtnRIGHT = <50
+BtnUP = <195
+BtnDOWN = <380
+BtnLEFT = <555
+BtnSELECT = <790
+
+Ports:
+[5:1] A == Open
+[13:10,3:0] D == Open
+[9:4] D == Taken by LCD
